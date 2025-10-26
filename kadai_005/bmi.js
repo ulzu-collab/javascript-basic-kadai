@@ -1,6 +1,6 @@
-let wait = 68;
+let waight = 68;
 let height = 1.7;
 
-let bmi = (wait / (height * height));
+let bmi = (waight / (height * height));
 
 console.log(bmi);
