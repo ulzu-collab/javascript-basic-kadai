@@ -1,5 +1,7 @@
-const moonLanding = new Date();
-const birthday = new Date();
-const date1 = birthday.getDate();
+const today = new Date();
 
-console.log(moonLanding.getFullYear(),'年',moonLanding.getMonth(),'月',date1,'日');
+const year = today.getFullYear();
+const month = today.getMonth() + 1;
+const date = today.getDate();
+
+console.log(`${year}年${month}月${date}日`);
